@@ -24,6 +24,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_ALUMINIUM);
 
                         output.accept(ModBlocks.ALUMINIUM_BLOCK);
+                        output.accept(ModBlocks.ALUMINIUM_DEEPSLATE_ORE);
                         output.accept(ModBlocks.ALUMINIUM_ORE);
                     }).build());
 
@@ -36,6 +37,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_ALUMINIUM);
 
                         output.accept(ModBlocks.ALUMINIUM_BLOCK);
+                        output.accept(ModBlocks.ALUMINIUM_DEEPSLATE_ORE);
                         output.accept(ModBlocks.ALUMINIUM_ORE);
                     }).build());
 

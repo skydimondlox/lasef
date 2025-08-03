@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "aluminum_ingot",
+  "ingredient": {
+    "item": "lasef:aluminium_deepslate_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "lasef:aluminium_ingot"
+  }
+}
