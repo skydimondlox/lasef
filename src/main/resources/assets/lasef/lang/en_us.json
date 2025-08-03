@@ -1,10 +1,12 @@
 {
   "item.lasef.aluminium_ingot": "Aluminum Ingot",
   "item.lasef.raw_aluminium": "Raw Aluminum",
+  "item.lasef.temp": "Temp Item",
 
   "block.lasef.aluminium_block": "Block Of Aluminum",
   "block.lasef.aluminium_ore": "Aluminum Ore",
   "block.lasef.aluminium_deepslate_ore": "Deeplate Aluminum Ore",
+  "block.lasef.magic_block": "Magic Block",
 
   "creativetab.lasef.lasef_tab": "Lasef Tab",
   "creativetab.lasef.lasef_tab_two": "Lasef Tab Two"

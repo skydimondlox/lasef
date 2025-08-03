@@ -22,10 +22,12 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.ALUMINIUM_INGOT);
                         output.accept(ModItems.RAW_ALUMINIUM);
+                        output.accept(ModItems.TEMP);
 
                         output.accept(ModBlocks.ALUMINIUM_BLOCK);
                         output.accept(ModBlocks.ALUMINIUM_DEEPSLATE_ORE);
                         output.accept(ModBlocks.ALUMINIUM_ORE);
+                        output.accept(ModBlocks.MAGIC_BLOCK);
                     }).build());
 
         public static final Supplier<CreativeModeTab> LASEF_TAB_TWO = CREATIVE_MODE_TAB.register("lasef_tab_two",

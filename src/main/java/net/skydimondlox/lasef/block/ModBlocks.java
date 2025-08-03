@@ -11,6 +11,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.skydimondlox.lasef.Lasef;
+import net.skydimondlox.lasef.block.custom.MagicBlock;
 import net.skydimondlox.lasef.item.ModItems;
 
 import java.util.function.Supplier;
@@ -30,6 +31,10 @@ public class ModBlocks {
     public static final DeferredBlock<Block> ALUMINIUM_DEEPSLATE_ORE = registerBlock("aluminium_deepslate_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 4),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+
+    public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
+            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
