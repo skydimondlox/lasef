@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "lasef:item/aluminum_ingot"
+    "layer0": "lasef:item/aluminium_ingot"
   }
 }

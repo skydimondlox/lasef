@@ -1,4 +1,7 @@
 {
-  "item.lasef.aluminum_ingot": "Aluminum Ingot",
-  "item.lasef.raw_aluminum": "Raw Aluminum"
+  "item.lasef.aluminium_ingot": "Aluminum Ingot",
+  "item.lasef.raw_aluminium": "Raw Aluminum",
+
+  "block.lasef.aluminium_block": "Block Of Aluminum",
+  "block.lasef.aluminium_ore": "Aluminum Ore"
 }

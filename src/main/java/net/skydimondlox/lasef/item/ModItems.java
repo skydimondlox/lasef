@@ -9,10 +9,10 @@ import net.skydimondlox.lasef.Lasef;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Lasef.MOD_ID);
 
-    public static final DeferredItem<Item> ALUMINUM_INGOT = ITEMS.register("aluminum_ingot",
+    public static final DeferredItem<Item> ALUMINIUM_INGOT = ITEMS.register("aluminium_ingot",
             () -> new Item(new Item.Properties()));
 
-    public static final DeferredItem<Item> RAW_ALUMINUM = ITEMS.register("raw_aluminum",
+    public static final DeferredItem<Item> RAW_ALUMINIUM = ITEMS.register("raw_aluminium",
             () -> new Item(new Item.Properties()));
 
 
