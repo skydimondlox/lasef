@@ -2,6 +2,7 @@ package net.skydimondlox.lasef;
 
 import net.minecraft.world.item.CreativeModeTabs;
 import net.skydimondlox.lasef.block.ModBlocks;
+import net.skydimondlox.lasef.item.ModCreativeModeTabs;
 import net.skydimondlox.lasef.item.ModItems;
 import org.slf4j.Logger;
 
@@ -27,6 +28,8 @@ public class Lasef {
 
     public Lasef(IEventBus modEventBus, ModContainer modContainer) {
         modEventBus.addListener(this::commonSetup);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);

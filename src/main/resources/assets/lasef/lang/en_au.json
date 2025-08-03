@@ -3,5 +3,8 @@
   "item.lasef.raw_aluminium": "Raw Aluminium",
 
   "block.lasef.aluminium_block": "Block Of Aluminium",
-  "block.lasef.aluminium_ore": "Aluminium Ore"
+  "block.lasef.aluminium_ore": "Aluminium Ore",
+
+  "creativetab.lasef.lasef_tab": "Lasef Tab",
+  "creativetab.lasef.lasef_tab_two": "Lasef Tab Two"
 }
